@@ -151,12 +151,13 @@ submitVal.addEventListener("click", function(event) {
         count += 1;
         pokeImg.src = pokeList[value].imgc;
         pokePhoto.classList.add('.image-fade');
-        pokeName.style.display = "block";
+        
         answer.value = "";
-        pokePhoto.classList.remove('.image-fade');
+//         pokePhoto.classList.remove('.image-fade');
 
         // Moving to next pokemon
         setTimeout(() => {
+            pokeName.style.display = "block";
             start();
         }, 2000);
     // } else {
