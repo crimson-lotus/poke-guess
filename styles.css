@@ -19,7 +19,7 @@ body {
 }
 
 .image-fade {
-    animation: fade 1.5s alternate;
+    animation: fade 2s alternate;
 }
 
 @keyframes fade {
