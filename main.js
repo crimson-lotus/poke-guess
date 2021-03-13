@@ -153,10 +153,10 @@ submitVal.addEventListener("click", function(event) {
         pokePhoto.classList.add('.image-fade');
         pokeName.style.display = "block";
         answer.value = "";
+        pokePhoto.classList.remove('.image-fade');
 
         // Moving to next pokemon
         setTimeout(() => {
-            pokePhoto.classList.remove('.image-fade');
             start();
         }, 2000);
     // } else {
