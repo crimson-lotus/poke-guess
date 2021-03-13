@@ -157,7 +157,7 @@ submitVal.addEventListener("click", function(event) {
         // Moving to next pokemon
         setTimeout(() => {
             start();
-        }, 3000);
+        }, 2000);
     // } else {
     //     restart();
     // } 
