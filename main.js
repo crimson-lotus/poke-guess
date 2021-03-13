@@ -121,6 +121,7 @@ function start() {
         // console.log(num);
         value = num;
         pokeImg.src = pokeList[num].imgb;
+        pokeName.style.display = "none";
         pokeName.innerText = pokeList[num].name;
     } else {
         restart();
@@ -156,7 +157,6 @@ submitVal.addEventListener("click", function(event) {
         // Moving to next pokemon
         setTimeout(() => {
             start();
-            pokeName.style.display = "none";
         }, 3000);
     // } else {
     //     restart();
