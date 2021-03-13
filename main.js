@@ -156,6 +156,7 @@ submitVal.addEventListener("click", function(event) {
 
         // Moving to next pokemon
         setTimeout(() => {
+            pokePhoto.classList.remove('.image-fade');
             start();
         }, 2000);
     // } else {
