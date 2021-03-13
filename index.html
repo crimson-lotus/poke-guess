@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="header-div">
+        <div class="main-logo">
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt = "Pokemon logo">
+        </div>
+    </section>
+    <section class="main-container"> 
+        <h1>Whos that Pokemon?</h1>
+        <div class="poke-img-div">
+            <img class="poke-img" src="" alt="Pokemon image">
+            <div class="poke-name-div">
+                <h3 class="poke-name"></h3>
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <label for="pName">Pokemon Name : </label>
+                <input id="pName" class="answer" type="text" name="poke-value">
+                <input class="submit btn" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="extra-options">
+            <div class="next1">
+                <button class="next">Skip</button>
+            </div>
+            <div class="hintBtn">
+                <button id="hint">Hint</button>
+            </div>
+            <div class="reset">
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </section>
+    <section class="restart-section">
+        <h1>Your score is :</h1>
+        <div class="result-div">
+            <div class="correct">
+            </div>
+            <div class="incorrect">
+            </div>
+            <div class="skipped">
+            </div>
+            <span class="line"></span>
+            <div class="score-div">
+                <h3 class="score">Score : 0</h3>
+            </div>
+        </div>
+        <button id="restart">Play Again</button>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
