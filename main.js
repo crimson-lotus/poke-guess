@@ -157,7 +157,7 @@ submitVal.addEventListener("click", function(event) {
         setTimeout(() => {
             start();
             pokeName.style.display = "none";
-        }, 2000);
+        }, 3000);
     // } else {
     //     restart();
     // } 
