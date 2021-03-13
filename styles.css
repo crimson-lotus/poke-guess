@@ -18,6 +18,9 @@ body {
     height: auto;
 }
 
+.image-fade {
+    animation: fade 1.5s alternate;
+}
 
 @keyframes fade {
      from {
@@ -48,10 +51,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.image-fade {
-    animation: fade 2.1s alternate;
 }
 
 .poke-name {
